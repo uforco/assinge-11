@@ -478,8 +478,13 @@ header{
     font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
 }
-
+.careers-left button:hover{
+    border: 1px solid #ffffff;
+    color: #ffffff ;
+    background-color: #FF42A5;
+}
 /* footer-sce */
 .footer-bg{
     background-color: #0B0223;
