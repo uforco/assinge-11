@@ -413,19 +413,29 @@ header{
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
 }
 .careers-off-site{
+    overflow: hidden;
     background: url(../images/Group-65.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
 }
+/* .careers-off-site .careers-cover-img{
+    position: absolute;
+    top: 95px;
+    right: -220px;
+    overflow: hidden;
+} */
+/* .careers-off-site  .careers-cover-img-main{
+    width: 96%;
+} */
 .careers-contaner{
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    margin: 5em 0;
+    margin: 4em 0;
 }
 .careers-contaner .careers-left, .careers-right{
-    width: 40%;
+    width: 50%;
     overflow: hidden;
 }
 .c-t-content-2site{
@@ -444,14 +454,15 @@ header{
 .careers-text-content p{
     color: #FFF;
     text-align: justify;
-    font-size: 16px;
+    margin: 0px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 28px;
     text-shadow: 0px 0px 11px #000000;
 }
 .careers-text-content .G-descrip{
-    margin: 2em 0;
+    margin: 1em 0 1.5em;
 }
 .c-t-content-2site .c-t-content-left, .c-t-content-right{
     overflow: hidden;
@@ -467,7 +478,7 @@ header{
     width: 100%;
 }
 .careers-left button{
-    margin: 2em 0;
+    margin: 2em 0 0;
     font-size: 14px;
     padding: 24px 42px;
     border: 1px solid #FF42A5;
@@ -556,6 +567,13 @@ header{
 .f-text1-item4{ grid-area: f-text1-item4; }
 .f-text1-item5{ grid-area: f-text1-item5; }
 .f-text1-item6{ grid-area: f-text1-item6; }
+
+.f-icon2-item1{ grid-area: f-icon2-item1; }
+.f-icon2-item2{ grid-area: f-icon2-item2; }
+.f-icon2-item3{ grid-area: f-icon2-item3; }
+.f-icon2-item4{ grid-area: f-icon2-item4; }
+.f-icon2-item5{ grid-area: f-icon2-item5; }
+.f-icon2-item6{ grid-area: f-icon2-item6; }
 /* f-text3-item */
 .f-text3-item1{ grid-area: f-text3-item1; }
 .f-text3-item2{ grid-area: f-text3-item2; }
