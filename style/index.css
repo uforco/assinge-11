@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: Work Sans !important;
+}
+ul, li, a{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+.d-none{
+    display: none !important;
+}
+/* header section */
+header{
+    width: auto !important;
+    box-shadow: 0px -15px 30px 5px #afafaf;
+}
+.conteinar-wapper{
+    width: 85% !important;
+    margin: 0 auto !important;
+    overflow: hidden !important;
+}
+.hearder-sec{
+    padding: 24px 0;
+}
+.hearder-sec nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden !important;
+}
+.hearder-sec nav .logo{
+    padding-left: 10px;
+}
+.hearder-sec nav .logo a{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.hearder-sec nav .logo .logo-g{
+    color: #FF42A5;
+}
+.hearder-sec nav .logo img{
+    width: 62px;
+    padding-right: 6px;
+}
+.hearder-sec nav ul{
+    display: flex;
+    flex-direction: row;
+}
+.hearder-sec nav ul li{
+    cursor: pointer;
+    padding:10px;
+    color: #3A3A3A;
+}
+.hearder-sec nav ul .follow-bg {
+    border-radius: 5px;
+    margin-left: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+.conteinar-wapper nav li i{
+    font-size: 20px;
+    padding: 0px 8px;
+}
+.hearder-sec nav ul li a {
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition:  200ms ease-in-out;
+}
+.hearder-sec nav ul li a:hover {
+    color: #FF42A5;
+}
+.hearder-sec nav ul #follow-us{
+   padding-right: 8px !important;
+}
+.hearder-sec nav ul li .fa-youtube {
+    color: #F61C0D;
+}
+.hearder-sec nav ul li .fa-tiktok {
+    color: #000;
+    position: relative;
+}
+.hearder-sec nav ul .fa-tiktok .tiktok-copy-2 {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    z-index: -3;
+    color: rgb(10, 255, 251);
+}
+.hearder-sec nav ul .fa-tiktok .tiktok-copy-3 {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    z-index: -4;
+    color: #F00044;
+}
+/* banner-sec */
+.banner-bg-contanet{
+    background: url("../images/Group\ 14.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+.banner-contaner{
+    display: flex;
+    gap: 20px;
+}
+.banner-contaner .left-banner, .right-banner{
+    width: 50%;
+    display: block !important;
+}
+.banner-contaner .img-conaner{
+    padding: 10%;
+}
+.banner-contaner .img-conaner img{
+    width: 100%;
+}
+.banner-contaner .banner-text {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-contaner .text-control h4{
+    color: #0B0223;
+    text-align: left;
+    margin: 0;
+    font-size: 2.5em;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.banner-contaner .text-control h1{
+    text-align: left;
+    font-size: 5em;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-contaner .text-control p:nth-child(3){
+    margin-top: 0 !important;
+}
+.banner-contaner .banner-text .text-control p i{
+    margin-right: 10px;
+}
+
+.banner-contaner .banner-text .text-control .fa-circle-play , .fa-download{
+   color: #FF42A5;
+}
+.banner-contaner .banner-text .text-control .fa-user-group{
+    color: #0B0223;
+}
+.banner-contaner .banner-text .text-control button{
+    border: none;
+    padding: 15px 40px;
+    margin-right: 25px;
+    font-size: 16px;
+    border-radius: 40px;
+    color: #fff;
+}
+.banner-contaner .text-control .btn-box{
+    margin: 2.5em 0 0;
+}
+.banner-contaner .text-control .sign-in{
+    background-color: #FF42A5;
+    transition: all 0.2s ease-in-out;
+}
+.banner-contaner .text-control .sign-in:hover{
+    border: 1px solid #FF42A5;
+    color: #FF42A5;
+    background-color: rgba(255, 255, 255, 0);
+}
+.banner-contaner .text-control .go-rogue{
+    background-color: #4EC5F7;
+    transition: all 0.2s ease-in-out;
+}
+.banner-contaner .text-control .go-rogue:hover{
+    border: 1px solid #4EC5F7;
+    color: #4EC5F7;
+    background-color: rgba(255, 255, 255, 0);
+}
+/* We are gamer sec */
+.team-sec-bg{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    margin: 0 0 3em ;
+    padding: 3em 0;
+}
+.gamer-contaner{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    overflow: hidden;
+}
+.gamer-contaner .left-gamer-t{
+    width: 60%;
+    overflow: hidden;
+}
+.gamer-contaner .g-img-control{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gamer-contaner .right-gamer-t{
+    width: 40%;
+    overflow: hidden;
+}
+/* .gamer-contaner .gamer-img{
+
+} */
+.gamer-contaner .gamer-img img{
+    width: 100%;
+}
+.gamer-contaner .gamer-text{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    overflow: hidden;
+}
+.gamer-contaner .gamer-txt-control{
+    text-align: right;
+}
+.gamer-contaner .gamer-txt-control h3{
+    font-size: 2.5em;
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gamer-contaner .gamer-txt-control p{
+    color: #534C64;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.gamer-contaner .gamer-txt-control button{
+    outline: 0;
+    border: 0;
+    font-size: 16px;
+    padding: 15px 36px;
+    border-radius: 30px;
+    background: #FF42A5;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+.gamer-contaner .gamer-txt-control button:hover{
+    border: 1px solid #FF42A5;
+    padding: 14px 35px;
+    background: rgba(255, 255, 255, 0);
+    color: #FF42A5;
+}
+.gamer-contaner .gamer-txt-control h4{
+    color: #534C64;
+    font-size: 1.5em;
+    font-style: normal;
+    margin: 6px 0 0;
+    font-weight: 700;
+    line-height: 45px;
+}
+.gamer-contaner .gamer-txt-control h4 span{
+    color: #534C64;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px; /* 187.5% */
+}
+/* online-video-game */
+.online-gamer-contaner{
+    text-align: center;
+}
+.inline-video-game{
+    padding: 3em 0;
+}
+.video-game-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.video-item{
+    width: 230px;
+    overflow: hidden;
+}
+.video-item .online-img-box{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.video-item .online-img-box::after{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 96%;
+    border-radius: 10px;
+    width: 97%;
+    background : linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%);
+    z-index: 2;
+    visibility: hidden;
+    transition: all 0.03s ease-in;
+}
+.online-play-btn{
+    position: absolute;
+    left: 32%;
+    top: 38%;
+    z-index: 5;
+    visibility: hidden;
+    transition: all 0.1s ease-in-out;
+}
+.online-play-btn i{
+    font-size: 30px;
+}
+.online-play-btn .Watch-p{
+    padding: 0;
+    font-size: 16px;
+    color: #FF42A5;
+}
+.video-item .online-img-box:hover .online-play-btn{
+    visibility: visible;
+}
+.video-item .online-img-box:hover::after{
+    border: 3px solid #FF42A5;
+    visibility: visible;
+}
+.video-item .online-img-box ::after{
+    border: 3px solid #FF42A5;
+    visibility: visible;
+}
+.video-item img{
+    width: 100%;
+}
+.video-item p{
+    text-align: left;
+    font-size: 14px;
+    padding: 0 2%;
+}
+.online-game-titel h2{
+    font-size: 2.5em;
+    margin-bottom: 0.3em;
+    color: #0B0223 ;
+}
+.online-game-titel h2 span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* .online-game-titel p{
+
+} */
+
+/* footer game list */
+.footer-game-list{
+    padding: 6em 0; 
+}
+.games-list-f{
+    padding: 0 2em;
+}
+.games-list-f-0{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #0B0223;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 20px;
+}
+.games-list-f-2{
+    margin: 0 4em;
+}
+.forter-img-control-b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 50px;
+    padding: 6px 20px 6px 6px;
+    background: #f5f5f5;
+}
+.mid-divs{
+    display: none;
+}
+/* Careers-sec */
+.careers-sec{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+.careers-off-site{
+    background: url(../images/Group-65.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+.careers-contaner{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    margin: 8em 0;
+}
+.careers-contaner .careers-left, .careers-right{
+    width: 45%;
+    overflow: hidden;
+}
+.c-t-content-2site{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.careers-text-content h3{
+    color: #FFF;
+    font-size: 48px;
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+}
+.careers-text-content p{
+    color: #FFF;
+    text-align: justify;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-shadow: 0px 0px 11px #000000;
+}
+.careers-text-content .G-descrip{
+    margin: 2em 0;
+}
+.c-t-content-2site .c-t-content-left, .c-t-content-right{
+    overflow: hidden;
+    display: block;
+}
+.c-t-content-2site .c-t-content-left p{
+    text-align: left;
+}
+.c-t-content-2site .c-t-content-right p{
+    text-align: right;
+}
+.careers-r-img-c{
+    width: 100%;
+}
+.careers-left button{
+    margin: 2em 0;
+    font-size: 20px;
+    padding: 30px 50px;
+    border: 1px solid #FF42A5;
+    border-radius: 70px;
+    font-style: normal;
+    color: #FF42A5 ;
+    background-color: #fff;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+/* footer-sce */
+.footer-bg{
+    background-color: #0B0223;
+}
+.footer-control{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-control a{
+    text-decoration: none;
+}
+.footer-control .f-logo{
+    padding: 6em 0 0.4em;
+}
+.footer-control .f-logo a{
+    font-size: 3em;
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.footer-control .f-logo a span{
+    color: #FF42A5 ;
+}
+.footer-control .f-logo a img{
+    width: 1.6em;
+}
+.footer-control .f-text-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    padding: 3em 0;
+}
+.footer-control .f-text-1 a{
+    color: #fff;
+}
+.footer-control .f-icon-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    font-size: 35px;
+}
+.footer-control .f-text-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 3em;
+}
+.footer-control .f-copy{
+    padding-bottom: 6em;
+}
+.footer-control .f-text-3 a{
+    color: rgba(255, 255, 255, 0.60);
+}
+.footer-control .f-text-3, .f-copy{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
