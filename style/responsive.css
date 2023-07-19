@@ -185,6 +185,10 @@
         font-size: 14px;
         padding: 20px 0;
     }
+    /* footer-sec */
+    .footer-control p{
+        font-size: 14px;
+    }
 }
 
  @media screen and (max-width: 575.98px) { 
@@ -292,5 +296,21 @@
     /* careers-sec */
     .careers-text-content p {
         font-size: 12px;
+    }
+    /* footer-sec */
+    .footer-control .f-text-1 {
+        display: grid;
+        grid-template-areas: "f-text1-item1 f-text1-item2 f-text1-item3"
+                             "f-text1-item4 f-text1-item5 f-text1-item6" ;
+        grid-gap: 15px;
+        grid-column-gap: 40px;
+    }
+    .footer-control .f-text-3{
+        display: grid;
+        grid-template-areas: "f-text3-item1 f-text3-item2"
+                             "f-text3-item3 f-text3-item4";
+    }
+    .footer-control .f-copy {
+        padding: 2em 0 4em;
     }
 }

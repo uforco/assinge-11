@@ -550,3 +550,14 @@ header{
     font-weight: 500;
     line-height: normal;
 }
+.f-text1-item1{ grid-area: f-text1-item1; }
+.f-text1-item2{ grid-area: f-text1-item2; }
+.f-text1-item3{ grid-area: f-text1-item3; }
+.f-text1-item4{ grid-area: f-text1-item4; }
+.f-text1-item5{ grid-area: f-text1-item5; }
+.f-text1-item6{ grid-area: f-text1-item6; }
+/* f-text3-item */
+.f-text3-item1{ grid-area: f-text3-item1; }
+.f-text3-item2{ grid-area: f-text3-item2; }
+.f-text3-item3{ grid-area: f-text3-item3; }
+.f-text3-item4{ grid-area: f-text3-item4; }
