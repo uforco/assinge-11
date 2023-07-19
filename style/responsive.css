@@ -290,7 +290,7 @@
         display: flex;
     }
     /* careers-sec */
-    .c-t-content-2site {
-        flex-direction: column;
+    .careers-text-content p {
+        font-size: 14px;
     }
 }
