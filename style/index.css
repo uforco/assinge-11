@@ -422,7 +422,7 @@ header{
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    margin: 8em 0;
+    margin: 5em 0;
 }
 .careers-contaner .careers-left, .careers-right{
     width: 45%;
