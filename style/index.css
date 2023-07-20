@@ -163,7 +163,6 @@ header{
 .banner-contaner .banner-text .text-control p i{
     margin-right: 10px;
 }
-
 .banner-contaner .banner-text .text-control .fa-circle-play , .fa-download{
    color: #FF42A5;
 }
@@ -226,9 +225,6 @@ header{
     width: 40%;
     overflow: hidden;
 }
-/* .gamer-contaner .gamer-img{
-
-} */
 .gamer-contaner .gamer-img img{
     width: 100%;
 }
@@ -289,7 +285,7 @@ header{
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: 45px; /* 187.5% */
+    line-height: 45px;
 }
 /* online-video-game */
 .online-gamer-contaner{
@@ -372,10 +368,6 @@ header{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-/* .online-game-titel p{
-
-} */
-
 /* footer game list */
 .footer-game-list{
     padding: 4em 0; 
@@ -531,7 +523,7 @@ header{
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
-    text-shadow: 0px 0px 11px #000000;
+    text-shadow: 0px 0px 11px #e9e9e9;
 }
 .careers-text-content .G-descrip{
     margin: 1em 0 1.5em;
