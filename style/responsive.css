@@ -1,13 +1,22 @@
-@media screen and (min-width: 1399.98){
+@media screen and (max-width: 1499.99){
     .careers-contaner .careers-left {
         width: 100%;
     }
     .careers-text-content p {
         text-shadow:none;
     }
+    .play-game-contaner-1{
+        gap: 200px !important;
+    }
+    .play-game-contaner-1 .play-g-l-d-control .p-g-l-d-c-contaner {
+        text-align: right;
+        margin: 0 10%;
+    }
 }
 @media screen and (max-width: 1399.98px) {
-
+    .play-game-contaner-1 .play-g-l-d-control .p-g-l-d-c-contaner {
+        margin: 0 10%;
+    }
 }
 @media screen and (max-width: 1199.98px) {
     .conteinar-wapper{
@@ -42,6 +51,12 @@
     .forter-img-control-b {
         padding: 5px;
         margin: 0 5px;
+    }
+    .play-game-contaner-2{
+        padding:0 0 40px;
+    }
+    .play-game-contaner-1 .play-g-l-d-control .p-g-l-d-c-contaner {
+        margin: 0 2%;
     }
 }
 @media screen and (max-width: 1079.98px) {
@@ -113,7 +128,7 @@
 }
 @media screen and  (max-width: 767.98px) { 
     .conteinar-wapper{
-        width: auto !important;
+        width: 90% !important;
     }
     .hearder-sec nav .logo img {
         width: 38px;
@@ -159,9 +174,20 @@
     .gamer-contaner .right-gamer-t{
         width: 100% !important;
     }
+    /* Play Instantly,No Downloads No Installs. */
+    .play-game-contaner-1 {
+        gap: 70px;
+    }
+    .play-game-contaner-1 .play-g-l-d-control h1 {
+        font-size: 1.8em;
+    }
+    .play-game-contaner-1 .play-g-l-d-control p {
+        font-size: 16px;
+    }
     /* careers-sec */
     .careers-off-site {
         background: none;
+        margin: 3em 0;
     }
     .careers-off-site .careers-cover-img{
         display: none;
@@ -200,13 +226,15 @@
         left: 20% !important;
         top: 38%;
     }
+    .mid-divs {
+        display: flex;
+    }
     /* footer-sec */
     .footer-control p{
         font-size: 14px;
     }
 }
-
- @media screen and (max-width: 575.98px) { 
+@media screen and (max-width: 575.98px) { 
     header{
         box-shadow: none;
     }
@@ -260,7 +288,7 @@
     /* .gamer-contaner */
     .team-sec-bg {
         background: none;
-        margin: 3.5em;
+        margin: 3em 8%;
     }
     .gamer-contaner .gamer-txt-control {
         text-align: center;
@@ -320,6 +348,25 @@
     }
     .video-item .online-img-box:hover::after {
         border: 5px solid #FF42A5;
+    }
+    .forter-img-control-b > p {
+        font-size: 10px;
+    }
+    /* Play Instantly,No Downloads No Installs. */
+    .play-game-contaner-1 {
+        flex-direction: column;
+        gap: 40px;
+        padding: 65px 0;
+    }
+    .play-game-contaner-1 .play-g-left-down, .play-g-right-down{
+        width: 100%;
+    }
+    .play-game-contaner-1 .play-g-l-d-control .p-g-l-d-c-contaner {
+        text-align: center;
+    }
+    .play-game-contaner-1 .play-g-right-down {
+        width: 70%;
+        padding: 0 16%;
     }
     /* careers-sec */
     .careers-text-content p {
