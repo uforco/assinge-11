@@ -215,6 +215,9 @@
     .d-none-m{
         display: none;
     }
+    .footer-game-list {
+        padding: 2em 0 4em;
+    }
     .games-list-f {
         padding: 0 ;
     }
@@ -231,6 +234,9 @@
     }
     .mid-divs {
         display: flex;
+    }
+    .forter-img-control-b > img {
+        width: 30px;
     }
     /* footer-sec */
     .footer-control p{
@@ -271,7 +277,7 @@
     /* banner */
     .banner-bg-contanet{
         background: none;
-        padding: 25px 10% 0;
+        padding: 25px 5% 0;
     }
     .banner-contaner {
         flex-direction: column-reverse;
@@ -401,5 +407,8 @@
     }
     .forter-img-control-b > img {
         width: 30px !important;
+    }
+    .footer-game-list {
+        padding: 1.1em 0 4em;
     }
 }
