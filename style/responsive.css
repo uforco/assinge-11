@@ -194,7 +194,7 @@
     }
     .careers-contaner {
         flex-direction: column;
-        margin: 4em 10%;
+        margin: 4em 0;
     }
     .careers-contaner .careers-left {
         width: 100%;
@@ -204,6 +204,9 @@
         padding-top: 3em;
         overflow: hidden;
         display: block !important;
+    }
+    .careers-text-content {
+        margin: 0 1em;
     }
     /* .online-game */
     .online-gamer-contaner {
@@ -288,7 +291,7 @@
     /* .gamer-contaner */
     .team-sec-bg {
         background: none;
-        margin: 3em 8%;
+        margin: 3em 4%;
     }
     .gamer-contaner .gamer-txt-control {
         text-align: center;
@@ -301,6 +304,9 @@
     }
     .gamer-contaner .gamer-txt-control h4 {
         margin: 2em 0 0;
+    }
+    .gamer-contaner .gamer-txt-control h4 {
+        font-size: 1.1em;
     }
     /* online-game */
     .online-gamer-contaner{
