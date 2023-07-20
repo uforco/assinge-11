@@ -238,9 +238,23 @@
     .forter-img-control-b > img {
         width: 30px;
     }
+    .video-item .online-img-box::after {
+        left: -1px;
+        top: -1px;
+    }
     /* footer-sec */
     .footer-control p{
         font-size: 14px;
+    }
+}
+@media screen and  (max-width: 667.98px){
+    .online-play-btn .Watch-p {
+        padding: 0;
+        font-size: 12px;
+    }
+    .online-play-btn {
+        left: 20% !important;
+        top: 34%;
     }
 }
 @media screen and (max-width: 575.98px) { 

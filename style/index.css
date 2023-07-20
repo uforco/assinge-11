@@ -73,7 +73,7 @@ header{
 .hearder-sec nav ul li a {
     color: #3C354F;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -302,7 +302,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 60px;
+    gap: 30px;
 }
 .video-item{
     width: 230px;
