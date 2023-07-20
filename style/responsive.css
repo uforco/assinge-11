@@ -291,7 +291,7 @@
     .banner-contaner .left-banner{
             background: url("../images/Group\ 14.png");
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: contain;
             padding: 30px 0 80px;
     }
     /* .gamer-contaner */
