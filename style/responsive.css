@@ -311,7 +311,8 @@
     /* .gamer-contaner */
     .team-sec-bg {
         background: none;
-        margin: 3em 4%;
+        margin: 0;
+        padding: 0 0 4em;
     }
     .gamer-contaner .gamer-txt-control {
         text-align: center;
@@ -323,10 +324,13 @@
         margin: 0.8em 0 0;
     }
     .gamer-contaner .gamer-txt-control h4 {
-        margin: 2em 0 0;
+        margin: 1em 0 0;
     }
     .gamer-contaner .gamer-txt-control h4 {
         font-size: 1.1em;
+    }
+    .gamer-contaner .gamer-txt-control h3 {
+        margin-top: 12px;
     }
     /* online-game */
     .online-gamer-contaner{
@@ -363,8 +367,14 @@
         display: flex;
     }
     .online-play-btn {
-        left: 35% !important;
+        left: 38% !important;
         top: 40%;
+    }
+    .online-play-btn i {
+        font-size: 28px;
+    }
+    .online-play-btn .Watch-p {
+        font-size: 14px;
     }
     .video-item .online-img-box::after {
         left: 1px;
