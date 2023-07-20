@@ -399,4 +399,7 @@
     .footer-control .f-copy {
         padding: 2em 0 4em;
     }
+    .forter-img-control-b > img {
+        width: 30px !important;
+    }
 }
