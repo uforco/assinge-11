@@ -58,7 +58,7 @@
         width: 60%;
     }
 }
-@media screen and (min-width: 767.99px) and (max-width: 991.98px) {
+@media screen and  (max-width: 991.98px) {
     .conteinar-wapper{
         width: 90% !important;
     }
@@ -103,12 +103,15 @@
         width: 100%;
     }
     /* .online-game */
+    .online-play-btn {
+        left: 28%;
+        top: 75px
+    }
     .video-item {
         width: 180px;
     }
-
 }
-@media screen and (max-width: 767.98px) { 
+@media screen and  (max-width: 767.98px) { 
     .conteinar-wapper{
         width: auto !important;
     }
@@ -192,6 +195,10 @@
     .games-list-f-0 {
         font-size: 14px;
         padding: 20px 0;
+    }
+    .online-play-btn {
+        left: 20% !important;
+        top: 38%;
     }
     /* footer-sec */
     .footer-control p{
@@ -300,6 +307,19 @@
     }
     .mid-divs{
         display: flex;
+    }
+    .online-play-btn {
+        left: 35% !important;
+        top: 40%;
+    }
+    .video-item .online-img-box::after {
+        left: 1px;
+        top: 1px;
+        height: 96%;
+        width: 96%;
+    }
+    .video-item .online-img-box:hover::after {
+        border: 5px solid #FF42A5;
     }
     /* careers-sec */
     .careers-text-content p {
